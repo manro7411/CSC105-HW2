@@ -1,0 +1,21 @@
+div{
+    font-size:140%;
+    
+  }
+  
+  div[class^="d"]{
+    border: 1px solid black;
+    margin-top:3%;
+  }
+  div[class*=xl-block]{
+      color: pink;
+  }  
+  div[class*=lg-block]{
+    color:red;
+  }
+  div[class*=md-block]{
+    color:blue;
+  }
+  div[class*=sm-block]{
+    color:green;
+  }
